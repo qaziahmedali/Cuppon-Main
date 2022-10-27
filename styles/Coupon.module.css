@@ -1,0 +1,57 @@
+.coupons {
+	display: inline-block;
+	max-width: 100%;
+	overflow: hidden;
+	position: relative;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+.resDiv {
+	box-sizing: border-box;
+	display: block;
+	max-width: 100%;
+}
+
+.couponDiv {
+	max-width: 100%;
+	display: block;
+	margin: 0;
+	border: none;
+	padding: 0;
+}
+
+.resImg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	box-sizing: border-box;
+	padding: 0;
+	border: none;
+	margin: auto;
+	display: block;
+	width: 0;
+	height: 0;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 100%;
+	max-height: 100%;
+}
+
+.transform {
+	--tw-translate-x: 0;
+	--tw-translate-y: 0;
+	--tw-skew-x: 0;
+	--tw-skew-y: 0;
+	--tw-scale-x: 1;
+	--tw-scale-y: 1;
+	transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y))
+		rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+		scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.rotate_25 {
+	--tw-rotate: 25deg;
+}
